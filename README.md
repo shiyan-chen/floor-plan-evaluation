@@ -1,6 +1,6 @@
 # Augmented Design
 
-Augmented Design is aimed to enhance building design with automation and artificial intellengence. Currently it provides "Floorplan Evaluation" service, which enables architects to quickly calculate the key indicators of a building plan and evaluate its design. In the future, Augmented Design will provide richer functions to help architects improve their design and increase design efficiency.
+Augmented Design is aimed to enhance building design with automation and artificial intelligence. Currently, it provides a "Floorplan Evaluation" service, which enables architects to quickly calculate the critical indicators of a building plan and evaluate its design. In the future, Augmented Design will provide more prosperous functions to help architects improve their design and increase design efficiency.
 
 ## Set Up
 
