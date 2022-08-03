@@ -12,7 +12,7 @@ from flask_cors import CORS
 from evaluation.eval_graph import evaluate
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='../webapp/frontend/build', static_url_path='')
 CORS(app)
 
 @app.route('/data_server/evaluation')
@@ -40,13 +40,9 @@ def evaluate_graph():
                        'total_usable_area': str(total_usable_area),
                        'total_used_area': str(total_used_area)})
 
+def server():
+    return send_from_directory(app.static_folder, 'index.html')
+
 if __name__ == '__main__':
     app.run()
 
-
-# www.baidu.com (域名) ---> VIP(load balance) ---> servers（10.1.1.200; 10.2.23.100, etc.. ）
-
-# http://10.0.0.195:3000/
-
-# 什么是一个 http request
-# 解释一下tcp/ip

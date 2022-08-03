@@ -15,8 +15,7 @@ Augmented Design is aimed to enhance building design with automation and artific
 - activate the encironment
 
 `brew install node`
-`pip install Flask`
-- install node.js, flask
+- install node.js
 
 `pip install -r requirements.txt`
 - install dependencies
