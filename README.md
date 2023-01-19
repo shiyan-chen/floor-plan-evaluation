@@ -1,6 +1,6 @@
-# Augmented Design
+# Floor Plan Evaluation
 
-Augmented Design is aimed to enhance building design with automation and artificial intelligence. Currently, it provides a "Floorplan Evaluation" service, which enables architects to quickly calculate the critical indicators of a building plan and evaluate its design. In the future, Augmented Design will provide more prosperous functions to help architects improve their design and increase design efficiency.
+Floor Plan Evaluation enables architects to quickly calculate the critical indicators of a building plan to help them evaluate their design.
 
 ## Set Up
 
